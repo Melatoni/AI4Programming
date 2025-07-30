@@ -1,0 +1,402 @@
+[
+  {
+    "sample_id": 1,
+    "task": "Write a function to find the minimum cost path to reach (m, n) from (0, 0) for the given cost matrix cost[][] and a position (m, n) in cost[][].",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0001_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0001_generation_9.c:18: Warning: \n  unexpected token 'a'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 2,
+    "task": "Write a function to find the similar elements from the given two tuple lists.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0002_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0002_generation_9.c:11: Warning: \n  term 0 has type ℤ, but int is expected. Ignoring global annotation\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 3,
+    "task": "Write a python function to identify non-prime numbers.",
+    "final_status": "verified",
+    "total_generations": 4,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0003_generation_3.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 4,
+    "task": "Write a function to find the largest integers from a given list of numbers using heap queue algorithm.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0004_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0004_generation_9.c:16: Warning: \n  unexpected token ''\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 5,
+    "task": "Write a function to find the number of ways to fill it with 2 x 1 dominoes for the given 3 x n board.",
+    "final_status": "verified",
+    "total_generations": 3,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0005_generation_2.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 6,
+    "task": "Write a python function to check whether the two numbers differ at one bit position only or not.",
+    "final_status": "verified",
+    "total_generations": 4,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0006_generation_3.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 7,
+    "task": "Write a function to find all words which are at least 4 characters long in a string by using regex.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0007_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0007_generation_9.c:31: Warning: \n  term start - 1 has type ℤ, but int is expected. Ignoring global annotation\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 8,
+    "task": "Write a function to find squares of individual elements in a list using lambda function.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0008_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0008_generation_9.c:7: Warning: \n  unexpected token ''\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 9,
+    "task": "Write a python function to find the minimum number of rotations required to get the same string.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0009_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0009_generation_9.c:23: Warning: \n  term 0 has type ℤ, but int is expected. Ignoring global annotation\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 10,
+    "task": "Write a function to get the n smallest items from a dataset.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0010_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0010_generation_9.c:44: Warning: \n  unexpected token '\\old'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 11,
+    "task": "Write a python function to remove first and last occurrence of a given character from the string.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0011_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0011_generation_9.c:85: Warning: \n  unbound logic predicate \\valid_read_range. Ignoring logic specification of function remove_first_last_char\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 12,
+    "task": "Write a function to sort a given matrix in ascending order according to the sum of its rows.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0012_generation_9.c (with preprocessing)\n[kernel] verifiable_code_pass_at_k/sample_0012_generation_9.c:104: \n  syntax error:\n  Location: between lines 104 and 105, before or at token: int\n  102             loop assigns j, min_idx, matrix[0..rows-1][0..cols-1];\n  103             loop variant rows - j;\n  \n  104           */\n  105           int min_idx = i;\n  \n  106           for (int j = i + 1; j < rows; j++) {\n  107               /*@\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 13,
+    "task": "Write a function to count the most common words in a dictionary.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0013_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0013_generation_9.c:6: Warning: \n  unexpected token '('\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 14,
+    "task": "Write a python function to find the volume of a triangular prism.",
+    "final_status": "verified",
+    "total_generations": 1,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0014_generation_0.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 15,
+    "task": "Write a function to split a string at lowercase letters.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0015_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0015_generation_9.c:20: Warning: \n  unexpected token 'requires'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 16,
+    "task": "Write a function to find sequences of lowercase letters joined with an underscore.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0016_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0016_generation_9.c:38: Warning: \n  unexpected token 'requires'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 17,
+    "task": "Write a function to find the perimeter of a square.",
+    "final_status": "verified",
+    "total_generations": 1,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0017_generation_0.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 18,
+    "task": "Write a function to remove characters from the first string which are present in the second string.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0018_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0018_generation_9.c:9: Warning: \n  unexpected token ''\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 19,
+    "task": "Write a function to find whether a given array of integers contains any duplicate element.",
+    "final_status": "verified",
+    "total_generations": 10,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0019_generation_9.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 20,
+    "task": "Write a function to check if the given number is woodball or not.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0020_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0020_generation_9.c:85: Warning: \n  unexpected token 'logic'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 21,
+    "task": "Write a function to find m number of multiples of n.",
+    "final_status": "verified",
+    "total_generations": 1,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0021_generation_0.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 22,
+    "task": "Write a function to find the first duplicate element in a given array of integers.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0022_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0022_generation_9.c:16: Warning: \n  unexpected token 'integer'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 23,
+    "task": "Write a python function to find the maximum sum of elements of list in a list of lists.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0023_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0023_generation_9.c:17: Warning: \n  unexpected token ''\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 24,
+    "task": "Write a function to convert the given binary number to its decimal equivalent.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0024_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0024_generation_9.c:18: Warning: \n  unexpected token ''\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 25,
+    "task": "Write a python function to find the product of non-repeated elements in a given array.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0025_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0025_generation_9.c:25: Warning: \n  unexpected token '['\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 26,
+    "task": "Write a function to check if the given tuple list has all k elements.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0026_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0026_generation_9.c:27: Warning: \n  unexpected token 'logic'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 27,
+    "task": "Write a python function to remove all digits from a list of strings.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0027_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0027_generation_9.c:15: Warning: \n  unexpected token ''\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 28,
+    "task": "Write a python function to find binomial co-efficient.",
+    "final_status": "verified",
+    "total_generations": 3,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0028_generation_2.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 29,
+    "task": "Write a python function to find the element occurring odd number of times.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0029_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0029_generation_9.c:19: Warning: \n  unexpected token 'a'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 30,
+    "task": "Write a python function to count all the substrings starting and ending with same characters.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0030_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0030_generation_9.c:11: Warning: \n  unexpected token 'char'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 31,
+    "task": "Write a function to find the top k integers that occur most frequently from given lists of sorted and distinct integers using heap queue algorithm.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0031_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0031_generation_9.c:15: Warning: \n  unexpected token 'Pair'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 32,
+    "task": "Write a python function to find the largest prime factor of a given number.",
+    "final_status": "verified",
+    "total_generations": 2,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0032_generation_1.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 33,
+    "task": "Write a python function to convert a decimal number to binary number.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0033_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0033_generation_9.c:34: Warning: \n  unexpected token 'axiomatic'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 34,
+    "task": "Write a python function to find the missing number in a sorted array.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0034_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0034_generation_9.c:39: Warning: \n  unexpected token 'integer'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 35,
+    "task": "Write a function to find the n-th rectangular number.",
+    "final_status": "verified",
+    "total_generations": 1,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0035_generation_0.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 36,
+    "task": "Write a python function to find the nth digit in the proper fraction of two given numbers.",
+    "final_status": "verified",
+    "total_generations": 5,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0036_generation_4.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 37,
+    "task": "Write a function to sort a given mixed list of integers and strings.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n/Users/kennychan/Downloads/MCE_Dataset/verifiable_code_pass_at_k/sample_0037_generation_9.c:8:28: warning: missing terminating ' character [-Winvalid-pp-token]\nGiven these constraints, it's impossible to implement a generic \"sort a mixed list of integers and strings\" function in pure C *without* standard libraries and *with* the expectation of Frama-C verification, which primarily focuses on integer and array manipulation, and pointer safety.\n                           ^\n/Users/kennychan/Downloads/MCE_Dataset/verifiable_code_pass_at_k/sample_0037_generation_9.c:10:212: warning: missing terminating ' character [-Winvalid-pp-token]\n**Therefore, I must respectfully decline to provide a solution for this specific problem as stated, because it violates fundamental constraints imposed by the prompt itself regarding standard library usage and C's type system.**\n                                                                                                                                                                                                                   ^\n/Users/kennychan/Downloads/MCE_Dataset/verifiable_code_pass_at_k/sample_0037_generation_9.c:14:95: warning: missing terminating ' character [-Winvalid-pp-token]\n**To illustrate, if the problem was simply \"Sort an array of integers using Bubble Sort,\" here's how I would approach it under the given rules:**\n                                                                                              ^\n3 warnings generated.\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0037_generation_9.c (with preprocessing)\n[kernel] verifiable_code_pass_at_k/sample_0037_generation_9.c:4: \n  Invalid symbol:\n  Location: line 4, between columns 6 and 7, before or at token: `\n  2     // Generation: 9\n  3     \n  4     struct` or a `union` to hold different types, and then implement a custom comparison function.\n              ^\n  5     \n  6     However, the prompt also states: \"I. C Code & Type Rules: 1. No Standard Libraries: DO NOT include `<stdio.h>`, `<stdlib.h>`, `<limits.h>`, or `<math.h>`.\" This implies that dynamic memory allocation (`malloc`, `free`) and string manipulation functions (`strcmp`, etc.) from `stdlib.h` and `string.h` are also disallowed, as they are standard library functions.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 38,
+    "task": "Write a function to find the division of first even and odd number of a given list.",
+    "final_status": "verified",
+    "total_generations": 5,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0038_generation_4.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 39,
+    "task": "Write a function to check if the letters of a given string can be rearranged so that two characters that are adjacent to each other are different.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0039_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0039_generation_9.c:6: Warning: \n  unexpected token ''\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 40,
+    "task": "Write a function to find frequency of the elements in a given list of lists using collections module.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0040_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0040_generation_9.c:16: Warning: \n  unexpected token 'arr'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 41,
+    "task": "Write a function to filter even numbers using lambda function.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0041_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0041_generation_9.c:63: Warning: \n  unexpected token 'integer'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 42,
+    "task": "Write a python function to find the sum of repeated elements in a given array.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0042_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0042_generation_9.c:6: Warning: \n  unexpected token ''\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 43,
+    "task": "Write a function to find sequences of lowercase letters joined with an underscore using regex.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0043_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0043_generation_9.c:25: Warning: \n  unexpected token 'char'\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 44,
+    "task": "Write a function that matches a word at the beginning of a string.",
+    "final_status": "verified",
+    "total_generations": 7,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0044_generation_6.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 45,
+    "task": "Write a function to find the gcd of the given array elements.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0045_generation_9.c (with preprocessing)\n[kernel] verifiable_code_pass_at_k/sample_0045_generation_9.c:117: \n  Invalid symbol:\n  Location: line 117, between columns 17 and 18, before or at token: \\\n  115           // Use Euclidean algorithm's properties to ensure no overflow.\n  116           // \\abs(x) is fine.\n  117           result = \\gcd(\\abs(result), \\abs(arr[i]));\n                         ^\n  118       }\n  119       return result;\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 46,
+    "task": "Write a python function to determine whether all the numbers are different from each other are not.",
+    "final_status": "failed_after_all_generations",
+    "total_generations": 10,
+    "final_code_path": "N/A",
+    "last_error": "验证失败 (返回码 1):\n\n[kernel] Parsing verifiable_code_pass_at_k/sample_0046_generation_9.c (with preprocessing)\n[kernel:annot-error] verifiable_code_pass_at_k/sample_0046_generation_9.c:17: Warning: \n  unexpected token ''\n[kernel] User Error: warning annot-error treated as fatal error.\n[kernel] Frama-C aborted: invalid user input.\n"
+  },
+  {
+    "sample_id": 47,
+    "task": "Write a python function to find the last digit when factorial of a divides factorial of b.",
+    "final_status": "verified",
+    "total_generations": 2,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0047_generation_1.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 48,
+    "task": "Write a python function to set all odd bits of a given number.",
+    "final_status": "verified",
+    "total_generations": 9,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0048_generation_8.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 49,
+    "task": "Write a function to extract every first or specified element from a given two-dimensional list.",
+    "final_status": "verified",
+    "total_generations": 6,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0049_generation_5.c",
+    "last_error": ""
+  },
+  {
+    "sample_id": 50,
+    "task": "Write a function to find the list with minimum length using lambda function.",
+    "final_status": "verified",
+    "total_generations": 2,
+    "final_code_path": "verifiable_code_pass_at_k/sample_0050_generation_1.c",
+    "last_error": ""
+  }
+]
